@@ -1,0 +1,9 @@
+Klasa - szablon pozwalający na tworzenie swoich, bardziej skomplikowanych typow obiektów.
+Obiekt - konkretny egzemplarz klasy. Stworzony zgodnie z kklasą, bardziej złożony tym danej.
+Zmienna - konkretna informacja, posiadająca swoja nazwę, typ,  a po zadeklarowaniu także wartość.
+Każda zmienna musi mieć określony - typ.
+Jeżeli deklarację zmiennej poprzedzimy słowem final, to - nie będzie można jej w przyszłości zmienić.
+W klasie mogą się znajdować metody, obiekty i konstruktory.
+Konstruktory są są wywoływane przez operator new i służą do tworzenia nowych obiektów.
+Jeśli w klasie zdefiniowano chociaż jeden konstruktor własny to kompilator nie wygeneruje dla nas konstruktora domyślnego.
+Zakładając, że istnieje klasa Car, to przy zapisie: (...) car1 i car2 to dwie referencje wskazujące na ten sam obiekt.
